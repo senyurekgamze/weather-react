@@ -12,6 +12,7 @@ function App() {
           <a
             href="www.linkedin.com/in/gamze-senyurek-087094147"
             target="_blank"
+            rel="noopener noreferer"
           >
             Gamze Senyurek
           </a>{" "}
@@ -19,6 +20,7 @@ function App() {
           <a
             href="https://github.com/senyurekgamze/weather-react"
             target="_blank"
+            el="noopener noreferer"
           >
             open sourced on Github.
           </a>
