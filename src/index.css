@@ -11,14 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-h1 {
-  font-size: 46px;
-  color: orchid;
-}
-
-ul {
-  font-size: 20px;
-  list-style-type: none;
-  color: orange;
-}
