@@ -11,7 +11,7 @@ export default function FormattedDate(props) {
     "Saturday",
   ];
 
-  let day = days[props.date.gate.getDay()];
+  let day = days[props.date.getDay()];
 
   return <div>{day}</div>;
 }

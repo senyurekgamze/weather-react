@@ -9,7 +9,7 @@ export default function WeatherInfo(props) {
         <li>
           <FormattedDate date={props.data.date} />
         </li>
-        <li className="tex-capitalize">{props.data.description}</li>
+        <li className="text-capitalize">{props.data.description}</li>
       </ul>
       <div className="row mt-3">
         <div className="col-6">
@@ -18,7 +18,7 @@ export default function WeatherInfo(props) {
             <div className="float-left">
               <span className="temperature">
                 {" "}
-                {Math.round(props.data.temperature)} 6
+                {Math.round(props.data.temperature)}
               </span>
               <span className="unit">°C</span>
             </div>
