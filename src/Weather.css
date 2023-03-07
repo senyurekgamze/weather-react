@@ -43,3 +43,8 @@
   top: -18px;
   position: relative;
 }
+
+.Weather .canvas {
+  margin-right: 10px;
+  display: inline-block;
+}
