@@ -13,7 +13,7 @@ export default function App() {
           <a
             href="www.linkedin.com/in/gamze-senyurek-087094147"
             target="_blank"
-            rel="noopener noreferer"
+            rel="noopener noreferrer"
           >
             Gamze Senyurek
           </a>{" "}
@@ -21,7 +21,7 @@ export default function App() {
           <a
             href="https://github.com/senyurekgamze/weather-react"
             target="_blank"
-            rel="noopener noreferer"
+            rel="noopener noreferrer"
           >
             open sourced on Github.
           </a>
