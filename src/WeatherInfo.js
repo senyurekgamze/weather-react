@@ -12,12 +12,20 @@ export default function WeatherInfo(props) {
         </li>
       </ul>
       <h1>{props.data.city}</h1>
-      <ul>
-        <li className="text-capitalize">{props.data.description}</li>
-      </ul>
+
       <div className="row mt-3">
-        <div className="col-6">
+        <div className="row">
+          <div className="col">
+            <WeatherIcon code={props.data.icon} size={70} />{" "}
+          </div>
+          <div className="col-1">
+            <WeatherTemperature celcius={props.data.temperature} />
+          </div>
+        </div>
+
+        <div className="row mt-1">
           <ul>
+            <li className="text-capitalize">{props.data.description}</li>
             <li>
               <strong>Humidity:</strong> {props.data.humidity} %
             </li>
@@ -25,14 +33,6 @@ export default function WeatherInfo(props) {
               <strong>Wind:</strong> {props.data.wind} km/h
             </li>
           </ul>
-        </div>
-        <div className="col-5">
-          <div className="clearfix">
-            <div className="d-flex">
-              <WeatherIcon code={props.data.icon} size={52} />
-              <WeatherTemperature celcius={props.data.temperature} />
-            </div>
-          </div>
         </div>
       </div>
     </div>
