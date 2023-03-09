@@ -1,27 +1,25 @@
 .Weather {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  border: 1px solid #142d4c;
-  background-color: #e2efff;
-  color: #385170;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1px solid #00204a;
+  background-color: #f7f1e5;
+  color: #617143;
   padding: 16px;
   border-radius: 6px;
+  margin: 50px 20px;
 }
 
 .Weather h1 {
   font-size: 38px;
-  font-weight: 400;
-  line-height: 28px;
-  margin: 20px 0 0 0;
-  text-align: center;
-  color: #ff6f3c;
+  font-weight: 200;
+  line-height: 29px;
+  text-align: left;
+  color: #e7ab9a;
 }
 
 .Weather ul {
-  margin: 0;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin: 10px;
   padding: 0;
-  text-align: center;
 }
 
 .Weather li {
@@ -35,8 +33,8 @@
   font-weight: bold;
   font-size: 64px;
   line-height: 64px;
-  font-weight: 400;
-  margin-left: -330px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 .Weather .unit {
@@ -48,13 +46,12 @@
 }
 
 .Weather .btn {
-  background-color: #385170;
-  color: #e2efff;
+  background-color: #617143;
+  color: #e7ab9a;
 }
 
 .Weather .form-control {
-  background-color: #e2efff;
-  color: #142d4c;
+  background-color: #f7f1e5;
 }
 
 .WeatherInfo {
@@ -64,11 +61,4 @@
 
 .Weather canvas {
   margin: 0 auto;
-}
-
-.WeatherForecast {
-  max-width: 600px;
-  border: 1px solid #142d4c;
-  border-radius: 10px 10px 0 0;
-  background-color: white;
 }
