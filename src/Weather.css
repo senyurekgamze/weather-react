@@ -1,12 +1,12 @@
 .Weather {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  border: 1px solid #00204a;
+  border: 1px solid #617143;
   background-color: #f7f1e5;
   color: #617143;
   padding: 16px;
   border-radius: 6px;
-  margin: 50px 20px;
+  margin: 60px auto;
 }
 
 .Weather h1 {
