@@ -17,13 +17,13 @@ export default function App() {
           >
             Gamze Senyurek
           </a>{" "}
-          and is{" "}
+          and is open sourced on{" "}
           <a
             href="https://github.com/senyurekgamze/weather-react"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open sourced on Github.
+            Github.
           </a>
         </footer>
       </div>

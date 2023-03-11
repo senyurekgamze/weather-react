@@ -4,10 +4,8 @@
   border: 1px solid #617143;
   background-color: #f7f1e5;
   color: #617143;
-  padding: 16px;
+  padding: 8px;
   border-radius: 6px;
-  margin: 30px auto;
-  margin-top: 40px;
 }
 
 .Weather h1 {
@@ -16,6 +14,7 @@
   line-height: 29px;
   text-align: left;
   color: #e7ab9a;
+  margin-top: 30px;
 }
 
 .Weather ul {
@@ -49,10 +48,12 @@
 .Weather .btn {
   background-color: #617143;
   color: #e7ab9a;
+  font-size: 12px;
 }
 
 .Weather .form-control {
   background-color: #f7f1e5;
+  font-size: 12px;
 }
 
 .WeatherInfo {
